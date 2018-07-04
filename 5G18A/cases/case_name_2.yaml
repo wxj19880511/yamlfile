@@ -1,0 +1,3 @@
+sg: SG2
+streams:
+    - !include ../streams/4.8.yaml

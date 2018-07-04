@@ -1,0 +1,4 @@
+sg: SG1
+streams:
+    - !include ../streams/4.8.yaml
+    - !include ../streams/4.32111.yaml
