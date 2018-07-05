@@ -1,4 +1,14 @@
 sg: SG1
 streams:
-    - !include ../streams/4.8.yaml
-    - !include ../streams/4.32111.yaml
+    - version: 4.8
+      testlines:
+        include: !include ../streams/4.8.yaml
+        exclude: 
+            - TL1
+            - TL2
+
+    - version:
+      testlines:
+        include: !include ../streams/4.32111.yaml
+        exclude: 
+            - TL5
