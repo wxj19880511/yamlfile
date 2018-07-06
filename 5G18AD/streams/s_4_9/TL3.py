@@ -1,0 +1,6 @@
+sg = 'SG3'
+epc_ip = '10.182.68.169'
+epc_username = 'k1'
+epc_password = '/python2'
+epc_python_path = ''
+epc_maintainer = 'kevin.j.wang@nokia.com'
